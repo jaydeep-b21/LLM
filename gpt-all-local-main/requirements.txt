@@ -1,0 +1,24 @@
+# The tools for this project are still rapidly evolving
+# We specify the versions to avoid breaking changes
+
+langchain == 0.1.0
+langchain-community == 0.0.9
+chromadb == 0.4.22   # Vector database - embedding persistence
+
+# Document loaders
+unstructured[local-inference] ~= 0.11.0
+# For Unstructured loaders
+markdown ~= 3.0.0
+
+# For HuggingFace embeddings
+sentence_transformers == 2.2.2
+
+# For the LLM
+gpt4all == 2.0.2
+
+# These are supporting tools
+# We don't need the exact minor version
+streamlit ~= 1.29.0
+
+# Linters and formatters (use the latest versions)
+ruff
